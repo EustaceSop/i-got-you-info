@@ -11,7 +11,7 @@
 2. **解碼使用者 ID：**
    - Token 的第一段會以 base64 解碼，取得對應使用者 ID。
 3. **查詢 IP 與地理位置：**
-   - 使用 bilibili 提供的公開 API 查詢目前裝置的 IP 地址、城市、國家、ISP 和座標位置，並提供 Google Maps 定位連結。
+   - 使用 bilibili 的 API 查詢目前裝置的 IP 地址、城市、國家、ISP 和座標位置，並提供 Google Maps 定位連結。
 4. **資訊彙整並發送至 Discord Webhook：**
    - 將 Token 與 IP 位置整合為 Discord embed 格式，透過 POST 請求傳送。
 
