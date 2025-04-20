@@ -46,16 +46,16 @@
 
 1. 安裝 Python 套件（需要 Python 3.6+）：
 
-    pip install requests
+    `pip install requests`
 
 2. 執行：
 
-    python cleaned_ip_info_collector.py
+    `python ip.py`
 
 請在可存取 Chrome LevelDB 檔案的環境下執行（例如本機 Windows）。
 
 🙌 貢獻來源
 ------------
 
-- [Nemo2011/bilibili-api](https://github.com/Nemo2011/bilibili-api)：IP 查詢 API。
-- [piotr-ginal/discord-token-grabber](https://github.com/piotr-ginal/discord-token-grabber)：Discord Token 擷取與解析的邏輯參考。
+- [Nemo2011/bilibili-api](https://github.com/Nemo2011/bilibili-api)：B站地理位置查詢 API。
+- [piotr-ginal/discord-token-grabber](https://github.com/piotr-ginal/discord-token-grabber)：Discord 緩存提取權杖漏洞。
