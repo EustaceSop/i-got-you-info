@@ -21,7 +21,7 @@
 - `requests`: 發送 HTTP 請求。
 - `urllib.request`: 傳統 POST 請求方式。
 - `re`, `base64`, `os`, `json`: Python 標準函式庫。
-- **Bilibili 公開 API**：查詢 IP 位置信息。
+- **Bilibili API**：查詢 IP 位置信息。
 - **MyMemory 翻譯 API**：將地名翻譯為英文（從簡體中文）。
 
 🛡️ 如何防範 Token 被擷取
